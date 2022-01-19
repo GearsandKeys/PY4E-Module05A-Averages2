@@ -8,3 +8,5 @@ def test_averages(capsys):
         statements = captured.out.split("\n")
         final_result = statements[-2]
         assert final_result == "6 3 3 1"
+
+#Congratulations! You found an easter egg!
